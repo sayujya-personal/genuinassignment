@@ -344,5 +344,31 @@
     </div>
   </footer>
 
+  <section style="padding: 80px 0; background: #020617;">
+    <div class="container" style="text-align: center;">
+      <div class="section-title">
+        <h2>Interactive Genuin SDK Demo</h2>
+        <p>Embedded creator experience powered by Genuin SDK.</p>
+      </div>
+
+      <div style="display: flex; justify-content: center; margin-top: 40px;">
+        <div
+          id="gen-sdk"
+          class="gen-sdk-class"
+          style="width: 300px; height: 600px; background: #efefef; border-radius: 20px; overflow: hidden;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://media.begenuin.com/sdk/2.0.5/gen_sdk.min.js"></script>
+
+  <script>
+    window.genuin.init({
+      embed_id: '6a0230a9054c8fcb0857e107',
+      api_key: 'a49b75acaf62617cae2e897370b3472885336700280a3df2'
+    });
+  </script>
+
 </body>
 </html>
